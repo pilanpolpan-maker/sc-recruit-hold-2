@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "rsp"
+version = "${mod_version}"
+displayName = "Recruits Scorched Pose"
+description = "Recruits hold Scorched Guns in the crossbow-hold arm pose."
+
+[[mixins]]
+config = "rsp.mixins.json"
+
+[[dependencies.rsp]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.rsp]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.rsp]]
+modId = "recruits"
+type = "required"
+versionRange = "[1.15.2,)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.rsp]]
+modId = "scguns"
+type = "required"
+versionRange = "[1.5,)"
+ordering = "AFTER"
+side = "CLIENT"

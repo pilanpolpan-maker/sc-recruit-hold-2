@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.rsp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "RecruitHumanRendererMixin",
+    "RecruitVillagerRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
